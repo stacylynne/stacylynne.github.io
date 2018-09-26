@@ -1,0 +1,109 @@
+.overview {
+  height: 400px;
+  margin: auto;
+  width: 50%;
+  align-content: center;
+}
+
+.overview img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 60%;
+
+}
+
+.overview h4 {
+  padding-top:50px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.challenge-solution {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 100px;
+  background-color: #F3F3F4;
+}
+
+.challenge-solution hr {
+  width: 50%;
+  height: 1px;
+  background-color:#666;
+  border: 0 none;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.challenge {
+  display: grid;
+  justify-content: center;
+}
+
+.challenge h4 {
+  text-align: center;
+}
+
+.challenge p {
+  text-align: center;
+}
+
+.solution {
+  display: grid;
+  justify-content: center;
+}
+
+.solution h4 {
+  text-align: center;
+}
+
+.solution p {
+  text-align: center;
+}
+
+.role-info {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 50px;
+}
+
+.role {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.role h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.role img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.role p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.circle {
+  -webkit-clip-path: circle(50%);
+  clip-path: circle(50%);
+  height: 100px;
+  width: auto;
+}
+
+.tag {
+    font-family: 'Montserrat';
+    background: #666;
+    line-height: 28px;
+    padding: 1% 2%;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    margin-right: 3px;
+}

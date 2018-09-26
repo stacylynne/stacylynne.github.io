@@ -49,7 +49,7 @@ h4 {
 nav {
   width: 100%;
   height: 75px;
-  background-color: #FFFFFF;
+  background-color: #F3F3F4;
 }
 
 nav a {
@@ -78,4 +78,70 @@ nav a:hover {
   height: 50px;
   width: auto;
 
+}
+
+.button-black {
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.button-black a {
+ text-decoration: none;
+ border-radius: 4px;
+ padding: 20px 60px;
+ font-weight: 400;
+ border: 2px solid #000000;
+}
+
+.button-black a:hover {
+ color: #FFFFFF;
+ background: #000000;
+ border-radius: 4px;
+ padding: 20px 60px;
+ font-weight: 400;
+}
+
+.button-resume {
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.button-resume a {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #000000;
+  border-radius: 4px;
+  padding: 20px 60px;
+  font-weight: 400;
+}
+
+.button-resume a:hover {
+  color: #000000;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 20px 60px;
+  font-weight: 400;
+  border: 2px solid #000000;
+}
+
+.button-white {
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+
+.button-white a {
+ color: #FFFFFF;
+ text-decoration: none;
+ border-radius: 4px;
+ padding: 20px 60px;
+ font-weight: 400;
+ border: 2px solid #FFFFFF;
+}
+
+.button-white a:hover {
+ color: #000000;
+ background: #FFFFFF;
+ border-radius: 4px;
+ padding: 20px 60px;
+ font-weight: 400;
 }

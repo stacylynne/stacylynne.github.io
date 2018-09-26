@@ -1,3 +1,5 @@
+
+
 .hero-section {
   background-image: url(../img/hero.png);
 	background-size: cover;
@@ -34,51 +36,28 @@ a.hero-icon {
   font-size: 48px;
 }
 
+a.hero-icon:hover {
+  color: #DC6A4C;
+  font-size: 48px;
+}
+
 .work-header{
   padding-top: 70px;
   padding-bottom: 20px;
-  text-align: center;
+  padding-left: 100px;
+  text-align: left;
 }
 
+/*grid system*/
+
 .grid-container {
+    grid-template-columns: 50% 50%;
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
  }
 
- .left {
-     grid-row-start: 1;
-     grid-column: 2 / 4;
- }
 
- .right {
-     grid-row-start: 1;
-     grid-column: 5 / 7;
- }
-
- .tag {
-     font-family: 'Montserrat';
-     background: #DC6A4C;
-     border-radius: 8px;
-     line-height: 28px;
-     padding: 1% 2%;
-     color: #FFFFFF;
-     font-size: 0.875rem;
-     margin-right: 3px;
- }
-
- .button {
-   padding-top: 50px;
- }
-
- .button a {
-    text-decoration: none;
-    color: #FFFFFF;
-    border: 3px solid #FFFFFF;
-    border-radius: 4px;
-    padding: 20px 60px;
-    font-weight: 400;
-}
 
  .right img, .left img {
      max-width: 600px;
@@ -90,31 +69,112 @@ a.hero-icon {
      justify-content: center;
  }
 
- .details p {
-     max-width: 600px;
-     margin: 20px 0;
- }
+ /*end grid*/
 
- .details h2 {
-     margin-bottom: 10px;
- }
+.tag {
+    font-family: 'Montserrat';
+    background: #DC6A4C;
+    border-radius: 8px;
+    line-height: 28px;
+    padding: 1% 2%;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    margin-right: 3px;
+}
 
- .thumbnail {
-   padding-right: 100px;
 
- }
+.details p {
+    max-width: 600px;
+    margin: 20px 0;
+}
 
- .strive {
-   background-color: rgba(0,0,0,.2);
-   height: 300px;
- }
+.details h2 {
+    margin-bottom: 10px;
+}
 
- .pupspot {
-   background-color: rgba(0,0,0,.1);
-   height: 300px;
- }
+.thumbnail {
+  padding-right: 100px;
+  padding-left: 100px;
 
- .patternfly {
-   background-color: rgba(0,0,0,.2);
-   height: 300px;
- }
+}
+
+.strive {
+  background-color: rgba(0,0,0,.1);
+  height: 300px;
+  padding-right: 75px;
+}
+
+
+.pupspot {
+  background-color: #FFFFFF;
+  height: 300px;
+  padding-left: 75px;
+}
+
+
+.patternfly {
+  background-color: rgba(0,0,0,.1);
+  height: 300px;
+  padding-right: 75px;
+}
+
+.patternfly .details h3 {
+  color: #000000;
+}
+
+.patternfly .details p {
+  color: #000000;
+}
+
+
+.about {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.about-header {
+ padding: 50px;
+ text-align: center;
+ align-items: center;
+}
+
+.about-header h3 {
+ margin-bottom: 50px;
+ text-align: center;
+}
+
+.about-content {
+  padding-top: 50px;
+  width: 500px;
+  line-height: 28px;
+  color: rgba(0,0,0,.8);
+  align-content: center;
+}
+
+.circle {
+ -webkit-clip-path: circle(50%);
+ clip-path: circle(50%);
+ height: 300px;
+ width: auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-items: right;
+  background-color: #000000;
+  height:100px;
+}
+
+.icon-bar {
+  align-content: center;
+  font-size: 50px;
+  padding-right: 50px;
+}
+
+.icon-bar i {
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 10px;
+}
